@@ -431,8 +431,8 @@
 }
 
 .footer .footer-menu a {
-    margin-right: 15px;
-    padding-right: 15px;
+    margin-right: 5px;
+    padding-right: 5px;
     border-right: 1px solid rgba(255, 255, 255, .1);
 }
 
@@ -440,4 +440,44 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+
+
+
+    /* the pop up */
+}
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+    }
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
+    .gradient-custom-5 {
+        /* fallback for old browsers */
+        background: #f20606;
+    }      
+
+    /* The popup form - hidden by default */
+#myForm {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    /*right: ;*/
+    height:  500px;
+    width: 700px;
+    border: 3px solid #f1f1f1;
+    z-index: 20;
 }
